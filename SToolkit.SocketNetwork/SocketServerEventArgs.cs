@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Text;
+
+namespace SToolkit.SocketNetwork
+{
+    public class SocketServerDataEventArgs : EventArgs
+    {
+        /// <summary>
+        /// Client connection.
+        /// </summary>
+        public ClientConnection Client { get; set; }
+        /// <summary>
+        /// Recieved data.
+        /// </summary>
+        public byte[] Data { get; set; }
+    }
+
+    public class SocketServerClientEventArgs : EventArgs
+    {
+        /// <summary>
+        /// Client connection.
+        /// </summary>
+        public ClientConnection Client { get; set; }
+    }
+}
