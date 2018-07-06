@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.0;net35;net40;net45</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SToolkit.SocketNetwork.Key.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <Company>StarDev</Company>
+    <Description>High performance powerful TCP\UDP socket client\server</Description>
+    <Copyright>StarDev</Copyright>
+    <PackageProjectUrl>https://github.com/StarDevSTD/SToolkit.SocketNetwork</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/StarDevSTD/SToolkit.SocketNetwork</RepositoryUrl>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
 </Project>
