@@ -1,8 +1,9 @@
 # SToolkit.Network
 High performance, powerful, async TCP\UDP socket client\server.
-# Install
-[![NuGet](https://img.shields.io/nuget/v/SToolkit.SocketNetwork.svg)](https://www.nuget.org/packages/SToolkit.SocketNetwork/)
 
+[![NuGet](https://img.shields.io/nuget/v/SToolkit.SocketNetwork.svg)](https://www.nuget.org/packages/SToolkit.SocketNetwork/)
+![AppVeyor](https://ci.appveyor.com/api/projects/status/wisspf7smj48f92g?svg=true)
+# Install
 [Nuget Package](https://www.nuget.org/packages/SToolkit.SocketNetwork/)
 
 Or Nuget console
