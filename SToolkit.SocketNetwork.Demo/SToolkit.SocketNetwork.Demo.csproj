@@ -30,6 +30,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Net35Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Net35Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SToolkit.SocketNetwork\SToolkit.SocketNetwork.csproj">
-      <Project>{3A942B40-7C87-4BD8-862B-8DD66CD7EE57}</Project>
+      <Project>{3a942b40-7c87-4bd8-862b-8dd66cd7ee57}</Project>
       <Name>SToolkit.SocketNetwork</Name>
     </ProjectReference>
   </ItemGroup>
