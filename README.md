@@ -10,6 +10,9 @@ Or Nuget console
 ```
 Install-Package SToolkit.SocketNetwork
 ```
+# Examples
+[#1](https://github.com/StarDevSTD/SToolkit.SocketNetwork/tree/master/SToolkit.SocketNetwork.WinFormsDemo)
+[#2](https://github.com/StarDevSTD/SToolkit.SocketNetwork/tree/master/SToolkit.SocketNetwork.Demo)
 # Usage SocketServer
 Including
 ```C#
@@ -23,7 +26,7 @@ or UDP
 ```C#
 SocketServer UdpServer = new SocketServer(NetworkType.Udp, IPAddress.Loopback, 5401);
 ```
-Then bind delagates
+Then bind events
 - **OnConnected** - Called when new client connected
 - **OnDisconnected** - Called when client disconnected
 - **OnReceived** - Called when received data from client
@@ -69,7 +72,7 @@ or UDP
 ```C#
 SocketClient UdpClient = new SocketClient(NetworkType.Udp);
 ```
-Bind delegates
+Bind events
 - **OnConnected** - Called when client connected
 - **OnDisconnected** - Called when client disconnected
 - **OnReceived** - Called when received data from server
