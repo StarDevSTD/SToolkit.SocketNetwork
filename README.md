@@ -57,7 +57,7 @@ bool UDPClientManage;
 int UDPDataInterval;
 ```
 # Usage SocketClient
-Icluding
+Including
 ```C#
 using SToolkit.SocketNetwork;
 ```
