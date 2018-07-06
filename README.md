@@ -30,6 +30,8 @@ Then bind delagates
 - **OnError** - Called when server catch error
 - **OnStart** - Called when server started
 - **OnStop** - Called when server stoppped
+
+
 Start server
 ```C#
 TcpServer.Start();
@@ -72,6 +74,8 @@ Bind delegates
 - **OnDisconnected** - Called when client disconnected
 - **OnReceived** - Called when received data from server
 - **OnError** - Called when client catch error
+
+
 Connect to remote server
 ```C#
 TcpClient.Connect(IPAddress.Loopback, 5400);
